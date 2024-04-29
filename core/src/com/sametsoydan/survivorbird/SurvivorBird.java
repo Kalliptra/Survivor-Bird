@@ -33,7 +33,7 @@ public class SurvivorBird extends ApplicationAdapter {
     int numberOfEnemies = 4;
     float[] enemyX = new float[numberOfEnemies];
     float distance = 0;
-    float enemyVelocity = 2;
+    float enemyVelocity = 5;
 
     Random random;
 
@@ -59,7 +59,7 @@ public class SurvivorBird extends ApplicationAdapter {
         bird = new Texture("bird1.png");
         bee1 = new Texture("bee2.png");
         bee2 = new Texture("bee3.png");
-        bee3 = new Texture("bee3.png");
+        bee3 = new Texture("bee4.png");
 
         distance = Gdx.graphics.getWidth() / 2;
 
